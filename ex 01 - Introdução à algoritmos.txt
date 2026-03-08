@@ -1,0 +1,207 @@
+1. Escreva um algoritmo que calcule a área de um triângulo cuja fórmula é base x altura / 2.
+
+ALGORITMO areaTriangulo
+VAR
+	REAL: baseTriangulo, alturaTriangulo, areaTriangulo; 
+INICIO
+	ESCREVA("Informe a Base do triangulo: ");
+	LEIA(baseTriangulo);
+
+	ESCREVA("Informe a altura do triangulo: ");
+	LEIA(alturaTriangulo);
+
+	areaTriangulo <- (baseTriangulo * altura) / 2;
+	ESCREVA("A área do triangulo é : " , areaTriangulo);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+2. Escreva um algoritmo que leia horas, minutos e segundos do teclado e apresente o tempo total em segundos.
+
+ALGORITMO tempoEmSegundos
+VAR
+	inteiro: segundos, minutos, horas, totalSegundos; 
+INICIO
+	ESCREVA("Informe os segundos: ");
+	LEIA(segundos);
+
+	ESCREVA("Informe os minutos: ");
+	LEIA(minutos);
+
+	ESCREVA("Informe os segundos: ");
+	LEIA(horas);
+
+	totalSegundos = (horas × 3600) + (minutos × 60) + segundos;
+
+	ESCREVA("O tempo total em segundos é de :" , totalSegundos , " segundos.");
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+3. Escreva um algoritmo que leia um número inteiro e apresente o seu antecessor e o seu sucessor.
+
+ALGORITMO sucessorAntecessor
+VAR
+	real: numero, antecessor, sucessor; 
+INICIO
+	ESCREVA("Informe um numero: ");
+LEIA(numero);
+	
+sucessor <- numero + 1;
+antecessor <- numero - 1;
+
+	ESCREVA("Sucessor: " , sucessor);
+	ESCREVA("Antecessor: ", antecessor);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+4. Escreva um algoritmo que leia a nota de três provas de um aluno, calcule e escreva a média final deste aluno. Considere que a média é ponderada e que o peso das provas é 2 para a primeira prova, 3 para a segunda prova e 5 para a terceira prova.
+
+ALGORITMO mediaAritmetica
+VAR
+	REAL: nota1, nota2, nota3, media;
+INICIO
+     ESCREVA("Informe a nota 1: ");
+     LEIA(nota1);
+
+     ESCREVA("Informe a nota 2: ");
+     LEIA(nota2);
+
+     ESCREVA("Informe a nota 3: ");
+     LEIA(nota3);
+
+     media = (nota1 × 2 + nota2 × 3 + nota3 × 5)/(2 + 3 + 5);
+     ESCREVA("Média do aluno: ", media);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+5. Escreva um algoritmo que leia uma temperatura em graus Celsius e a apresente convertida em graus Fahrenheit.
+
+ALGORITMO celsiusParaFahrenheit
+VAR
+	REAL: celsius, fahrenheit;
+INICIO
+	ESCREVA("Informe a temperatura em celsius: ");
+	LEIA(celsius);
+
+	Fahrenheit <- (celsius * 9)/5 + 32;
+
+	ESCREVA("A temperatura é de :" , fahrenheit , " fahrenheits");
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+6. Escreva um algoritmo que apresente a conversão de um valor em reais para dólar, de acordo com a taxa de câmbio informada pelo usuário.
+
+ALGORITMO taxaDolar
+VAR
+	REAL: reais, taxa, valorConvertido;
+INICIO
+	ESCREVA("Informe o valor a ser convertido: ");
+	LEIA(reais);
+
+	ESCREVA("Informe a taxa de câmbio do dólar : ");
+	LEIA(taxa);
+
+	valorConvertido <- reais / taxa;
+
+	ESCREVA("O valor convertido é de : " , valorConvertido);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+7. Escreva um algoritmo que calcule e mostre o consumo médio e a autonomia que um veículo ainda teria antes de um abastecimento de combustível. Considere que o veículo sempre seja abastecido até encher o tanque e que são fornecidas apenas a capacidade do tanque, a quantidade de litros abastecidos e a quilometragem percorrida desde o último abastecimento.
+
+ALGORITMO mediaVeiculo
+VAR
+	REAL: capacidadeTanque, litrosAbastecidos, quilometragemPercorrida, consumoMedio, autonomia;
+INICIO
+	ESCREVA("Informe quantos litros o tanque comporta: ");
+	LEIA(capacidadeTanque);
+
+	ESCREVA("Informe o valor em litros que foi abastecido:");
+	LEIA(litrosAbastecidos);
+
+	ESCREVA("Informe a quilometragem que foi percorrida: ");
+	LEIA(quilometragemPercorrida);
+
+	consumoMedio <- quilometragemPercorrida/litrosAbastecidos;
+	litrosRestantes <- capacidadeTanque – litrosAbastecidos;
+	autonomia <- consumoMedio * litrosRestantes;
+	
+	ESCREVA("O consumo médio foi de : " , consumoMedio);
+	ESCREVA("O carro ainda pode percorrer : " , autonomia);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+8. Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% de comissão para o garçom. Escreva um algoritmo que leia o valor gasto pelo cliente em um restaurante e mostre o valor da gorjeta e o valor total a ser pago.
+
+ALGORITMO taxaGarcon
+VAR 
+	REAL: conta, taxa, total;
+INICIO
+	ESCREVA("Informe o valor a ser pago: ");
+	LEIA(conta);
+
+	taxa = conta * 0,10;
+	total = conta + taxa;
+
+	ESCREVA("A gorjeta é de : " , taxa);
+	ESCREVA("o preço total é de :" , total);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+9. Escreva um algoritmo que leia o número de votos brancos, o número de votos nulos e o número de votos válidos em um município. Em seguida, calcule e escreva o percentual de votos brancos, nulos e válidos em relação ao total de eleitores do município.
+
+ALGORITMO percentualVotos
+VAR
+	REAL: brancos, nulos, validos, eleitores;
+INICIO
+	ESCREVA("Informe o total de votos brancos: ");
+	LEIA(brancos);
+
+	ESCREVA("Informe o total de votos nulos: ");
+	LEIA(nulos);
+
+	ESCREVA("Informe o total de votos validos: ");
+	LEIA(validos);
+
+	ESCREVA("Informe o total de eleitores: ");
+	LEIA(eleitores);
+
+	totalEleitores <- votosBrancos + votosNulos + votosValidos;
+	percentualBrancos <- (votosBrancos * 100) / totalEleitores;
+	percentualNulos <- (votosNulos * 100) / totalEleitores;
+	percentualValidos <- (votosValidos * 100) / totalEleitores;
+
+	ESCREVA("Porcentagem de Votos brancos: ", brancos);
+	ESCREVA("Porcentagem de Votos nulos: " , nulos);
+	ESCREVA("Porcentagem de Votos validos: ", validos);
+FIM
+
+/-------------------------------------------------------------------------------------------/
+
+10. Escreva um algoritmo que leia dois números inteiros e faça a troca de valores entre eles, apresentando as variáveis com seus valores trocados.
+
+ALGORITMO valoresTrocados
+VAR
+	CARACTER: n1, n2, temp;
+INICIO
+	ESCREVA("Informe o primeiro valor(ou texto): ");
+	LEIA(n1);
+
+	ESCREVA("Informe o segundo valor(ou texto): ");
+	LEIA(n2);
+
+	ESCREVA(n1 , " " , n2);
+
+	temp <- n1;
+	n1 <- n2;
+	n2 <- temp;
+
+	ESCREVA(n1 , " " , n2);
+FIM
