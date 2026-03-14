@@ -159,30 +159,22 @@ FIM
 
 ALGORITMO percentualVotos
 VAR
-	REAL: brancos, nulos, validos, eleitores;
+    INTEIRO: brancos, nulos, validos, eleitores;
 INICIO
-	ESCREVA("Informe o total de votos brancos: ");
-	LEIA(brancos);
+    ESCREVA("Informe o total de votos brancos: ");
+    LEIA(brancos);
 
-	ESCREVA("Informe o total de votos nulos: ");
-	LEIA(nulos);
+    ESCREVA("Informe o total de votos nulos: ");
+    LEIA(nulos);
 
-	ESCREVA("Informe o total de votos validos: ");
-	LEIA(validos);
+    ESCREVA("Informe o total de votos validos: ");
+    LEIA(validos);
 
-	ESCREVA("Informe o total de eleitores: ");
-	LEIA(eleitores);
+    ESCREVA("Porcentagem de Votos brancos: " , brancos * 100 / eleitores);
+    ESCREVA("Porcentagem de Votos nulos: " , nulos * 100 / eleitores);
+    ESCREVA("Porcentagem de Votos validos: " , validos * 100 / eleitores);
 
-	totalEleitores <- votosBrancos + votosNulos + votosValidos;
-	percentualBrancos <- (votosBrancos * 100) / totalEleitores;
-	percentualNulos <- (votosNulos * 100) / totalEleitores;
-	percentualValidos <- (votosValidos * 100) / totalEleitores;
-
-	ESCREVA("Porcentagem de Votos brancos: ", brancos);
-	ESCREVA("Porcentagem de Votos nulos: " , nulos);
-	ESCREVA("Porcentagem de Votos validos: ", validos);
 FIM
-
 /-------------------------------------------------------------------------------------------/
 
 10. Escreva um algoritmo que leia dois números inteiros e faça a troca de valores entre eles, apresentando as variáveis com seus valores trocados.
