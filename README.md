@@ -10,6 +10,13 @@
   - 🇫🇷 **Francês:** Básico
 
 ---
+### 🎯 Foco de Estudo Atual & Metas
+- 🧱 **Conceitos de Engenharia de Software:** Programação Orientada a Objetos (POO), Arquitetura MVC, Clean Code e TDD.
+- 🗄️ **Aprofundamento em DBs:** Bancos de dados Relacionais e Não-Relacionais.
+- ⚙️ **Processos:** Metodologias Ágeis (Scrum/Kanban) e Arquitetura de Software.
+- 🤖 **IA & Inovação:** Engenharia de Prompts e integração com LLMs (ChatGPT, Gemini, Claude).
+
+---
 
 ### 🛠️ Tecnologias & Habilidades
 
@@ -38,20 +45,11 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
-
-### 🎯 Foco de Estudo Atual & Metas
-- 🧱 **Conceitos de Engenharia de Software:** Programação Orientada a Objetos (POO), Arquitetura MVC, Clean Code e TDD.
-- 🗄️ **Aprofundamento em DBs:** Bancos de dados Relacionais e Não-Relacionais.
-- ⚙️ **Processos:** Metodologias Ágeis (Scrum/Kanban) e Arquitetura de Software.
-- 🤖 **IA & Inovação:** Engenharia de Prompts e integração com LLMs (ChatGPT, Gemini, Claude).
-
----
+### 🌐 Conecte-se Comigo
 
 📬 **Vamos conversar?** Fique à vontade para mandar uma mensagem ou explorar meus repositórios!
 
-### 🌐 Conecte-se Comigo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-leal-moura)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alexll14)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AlexLL_cs)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/alexll_cs/)
 
